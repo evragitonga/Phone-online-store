@@ -3,12 +3,12 @@ import { ProductContext } from "../context/ProductContext"
 import ProductCard from "./ProductCard"
 
 function ProductList(){
- const products = useContext(ProductContext)
+ const {data} = useContext(ProductContext)
  return (
   <div>
-    {products.map((product) => {
+    {data.map((product) => (
       <ProductCard key={product.id} product={product}/>
-    })}
+    ))}
   </div>
  )
 }
