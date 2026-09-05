@@ -6,7 +6,7 @@ function ProductList(){
  const [search, setSearch] = useState("")
  const {data} = useContext(ProductContext)
  const filteredProducts = data.filter(product => {
-  return product.name.tolowercase().includes(search.tolowercase())
+  return product.name.toLowerCase().includes(search.toLowerCase())
   
  })
  return (
