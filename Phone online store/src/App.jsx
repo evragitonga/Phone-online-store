@@ -1,8 +1,70 @@
-import { useState } from 'react'
+import { Children, useEffect, useState } from 'react'
 import './App.css'
-
+import { ProductContext } from './context/ProductContext'
 function App() {
+  const [Data,setData] = useState([])
+  const [loading,setLoading] = useState(true)
+  const [error,setError] = useState("")
+  const [productData,setProductData] = useState({
+    name:"",
+    category:"",
+    price:0,
+    stock:0,
+    brand:""
+  })
+
+
+  useEffect(() => {
+    fetch("http://localhost:3000/products").then((res) => {
+      if(!res.ok){
+        throw new Error("failed to fetch data")//this checks whether the response is okay if not it throws an error message if it is okay it returns the response
+      }
+      return res.json()
+    }).then((data) => {
+      setData(data)//here I take the data from the response and put it in the setProductData variable which updates the productData variable which was initially empty 
+      setLoading(false)//we are setting loading to false since the fetching of data is complete therefore loading is done
+    }).catch(
+      (error) => {
+        setLoading(false)//because once the data is fetched and there is an error loading stops
+        setError(error.message)
+      }
+    )
+  },[])
+
+  function handleCreate(){
+    fetch("http://localhost:3000/products",{
+      method:"POST",
+      headers:{"content-type":"Application/json"},
+      body: JSON.stringify(productData)
+    }).then((res) => {
+      if(!res.ok){
+        throw new Error("failed to send data")
+      }
+      return res.json()
+    }).then(newProduct => {
+      setData(prevData => 
+        [...prevData,newProduct]
+      )
+      setProductData({
+        name:"",
+        category:"",
+        price:0,
+        stock:0,
+        brand:""
+      })
+    }
+  ).catch((error) => {
+      setError(error.message)
+    })
+  }
   return (
+    <div>
+      {loading && <p>loading...</p>}
+      {error && <p>{error}</p>}
+      <ProductContext value={{productData,setProductData,handleCreate}}>
+        {Children}
+      </ProductContext>
+    </div>
     
   )
 }
