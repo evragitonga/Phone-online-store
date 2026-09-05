@@ -239,22 +239,6 @@
       "price": 249,
       "stock": 35,
       "brand": "Tecno"
-    },
-    {
-      "name": "Sumsung",
-      "category": "Electronics",
-      "price": "1000",
-      "stock": "100",
-      "brand": "sumsung",
-      "id": "qCPzunxmUkM"
-    },
-    {
-      "name": "strangerthings",
-      "category": "Electroni",
-      "price": "10010",
-      "stock": "1101",
-      "brand": "sumsung",
-      "id": "L6lJZxSmKxM"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

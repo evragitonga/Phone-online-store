@@ -43,9 +43,24 @@ function App() {
       setError(error.message)
     })
   }
+
+  function handleDelete(id){
+    fetch(`http://localhost:3000/products/${id}`,{
+      method:"DELETE"
+    }).then(res => {
+      if(!res.ok){
+        throw new Error("failed to delete")
+      }
+      return res.json()
+    }).then(() => (
+      setData(prevData => prevData.filter(product => product.id !== id))
+    )).catch(error =>{
+      setError(error.message)
+    })
+  }
   return (
     <div>
-      <ProductContext value={{data,setData,handleCreate}}>
+      <ProductContext value={{data,setData,handleCreate,handleDelete}}>
         {loading && <p>loading...</p>}
         {error && <p>{error}</p>}
         <ProductList />

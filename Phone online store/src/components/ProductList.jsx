@@ -12,9 +12,9 @@ function ProductList(){
  return (
   <div>
     <input type="text" placeholder="Search Product" onChange={(e) => setSearch(e.target.value)} value={search}/>
-    {filteredProducts.map((product) => {
+    {filteredProducts.map((product) => (
       <ProductCard key={product.id} product={product}/>
-    })}
+    ))}
   </div>
  )
 }
