@@ -1,0 +1,244 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "iPhone 15",
+      "category": "Smartphones",
+      "price": 999,
+      "stock": 15,
+      "brand": "Apple"
+    },
+    {
+      "id": 2,
+      "name": "iPhone 15 Pro",
+      "category": "Smartphones",
+      "price": 1199,
+      "stock": 10,
+      "brand": "Apple"
+    },
+    {
+      "id": 3,
+      "name": "iPhone 15 Pro Max",
+      "category": "Smartphones",
+      "price": 1299,
+      "stock": 8,
+      "brand": "Apple"
+    },
+    {
+      "id": 4,
+      "name": "iPhone 14",
+      "category": "Smartphones",
+      "price": 799,
+      "stock": 18,
+      "brand": "Apple"
+    },
+    {
+      "id": 5,
+      "name": "iPhone 13",
+      "category": "Smartphones",
+      "price": 699,
+      "stock": 20,
+      "brand": "Apple"
+    },
+    {
+      "id": 6,
+      "name": "Samsung Galaxy S24",
+      "category": "Smartphones",
+      "price": 899,
+      "stock": 14,
+      "brand": "Samsung"
+    },
+    {
+      "id": 7,
+      "name": "Samsung Galaxy S24 Ultra",
+      "category": "Smartphones",
+      "price": 1299,
+      "stock": 7,
+      "brand": "Samsung"
+    },
+    {
+      "id": 8,
+      "name": "Samsung Galaxy S23",
+      "category": "Smartphones",
+      "price": 799,
+      "stock": 16,
+      "brand": "Samsung"
+    },
+    {
+      "id": 9,
+      "name": "Samsung Galaxy A55",
+      "category": "Smartphones",
+      "price": 449,
+      "stock": 25,
+      "brand": "Samsung"
+    },
+    {
+      "id": 10,
+      "name": "Samsung Galaxy A35",
+      "category": "Smartphones",
+      "price": 349,
+      "stock": 28,
+      "brand": "Samsung"
+    },
+    {
+      "id": 11,
+      "name": "Google Pixel 8",
+      "category": "Smartphones",
+      "price": 699,
+      "stock": 12,
+      "brand": "Google"
+    },
+    {
+      "id": 12,
+      "name": "Google Pixel 8 Pro",
+      "category": "Smartphones",
+      "price": 999,
+      "stock": 9,
+      "brand": "Google"
+    },
+    {
+      "id": 13,
+      "name": "Google Pixel 7",
+      "category": "Smartphones",
+      "price": 599,
+      "stock": 15,
+      "brand": "Google"
+    },
+    {
+      "id": 14,
+      "name": "OnePlus 12",
+      "category": "Smartphones",
+      "price": 799,
+      "stock": 11,
+      "brand": "OnePlus"
+    },
+    {
+      "id": 15,
+      "name": "OnePlus 12R",
+      "category": "Smartphones",
+      "price": 599,
+      "stock": 17,
+      "brand": "OnePlus"
+    },
+    {
+      "id": 16,
+      "name": "OnePlus Nord 3",
+      "category": "Smartphones",
+      "price": 399,
+      "stock": 22,
+      "brand": "OnePlus"
+    },
+    {
+      "id": 17,
+      "name": "Xiaomi 14",
+      "category": "Smartphones",
+      "price": 749,
+      "stock": 13,
+      "brand": "Xiaomi"
+    },
+    {
+      "id": 18,
+      "name": "Xiaomi Redmi Note 13",
+      "category": "Smartphones",
+      "price": 299,
+      "stock": 30,
+      "brand": "Xiaomi"
+    },
+    {
+      "id": 19,
+      "name": "Xiaomi Redmi Note 13 Pro",
+      "category": "Smartphones",
+      "price": 399,
+      "stock": 24,
+      "brand": "Xiaomi"
+    },
+    {
+      "id": 20,
+      "name": "Xiaomi Poco X6",
+      "category": "Smartphones",
+      "price": 349,
+      "stock": 19,
+      "brand": "Xiaomi"
+    },
+    {
+      "id": 21,
+      "name": "Oppo Reno 11",
+      "category": "Smartphones",
+      "price": 449,
+      "stock": 16,
+      "brand": "Oppo"
+    },
+    {
+      "id": 22,
+      "name": "Oppo Find X7",
+      "category": "Smartphones",
+      "price": 799,
+      "stock": 8,
+      "brand": "Oppo"
+    },
+    {
+      "id": 23,
+      "name": "Vivo V30",
+      "category": "Smartphones",
+      "price": 399,
+      "stock": 21,
+      "brand": "Vivo"
+    },
+    {
+      "id": 24,
+      "name": "Vivo X100",
+      "category": "Smartphones",
+      "price": 699,
+      "stock": 10,
+      "brand": "Vivo"
+    },
+    {
+      "id": 25,
+      "name": "Huawei P60 Pro",
+      "category": "Smartphones",
+      "price": 899,
+      "stock": 6,
+      "brand": "Huawei"
+    },
+    {
+      "id": 26,
+      "name": "Huawei Nova 12",
+      "category": "Smartphones",
+      "price": 499,
+      "stock": 14,
+      "brand": "Huawei"
+    },
+    {
+      "id": 27,
+      "name": "Nothing Phone 2",
+      "category": "Smartphones",
+      "price": 599,
+      "stock": 12,
+      "brand": "Nothing"
+    },
+    {
+      "id": 28,
+      "name": "Motorola Edge 40",
+      "category": "Smartphones",
+      "price": 499,
+      "stock": 18,
+      "brand": "Motorola"
+    },
+    {
+      "id": 29,
+      "name": "Nokia G60",
+      "category": "Smartphones",
+      "price": 299,
+      "stock": 23,
+      "brand": "Nokia"
+    },
+    {
+      "id": 30,
+      "name": "Tecno Camon 20",
+      "category": "Smartphones",
+      "price": 249,
+      "stock": 35,
+      "brand": "Tecno"
+    }
+  ]
+}
