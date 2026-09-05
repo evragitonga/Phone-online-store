@@ -1,8 +1,10 @@
-import { Children, useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import './App.css'
 import { ProductContext } from './context/ProductContext'
+import ProductList from './components/ProductList'
+import NewProductForm from './components/NewProductForm'
 function App() {
-  const [Data,setData] = useState([])
+  const [data,setData] = useState([])
   const [loading,setLoading] = useState(true)
   const [error,setError] = useState("")
 
@@ -14,21 +16,19 @@ function App() {
       }
       return res.json()
     }).then((data) => {
-      setData(data)//here I take the data from the response and put it in the setProductData variable which updates the productData variable which was initially empty 
+      setData(data)//here I take the data from the response and put it in the setData variable which updates the Data variable which was initially empty 
       setLoading(false)//we are setting loading to false since the fetching of data is complete therefore loading is done
     }).catch(
-      (error) => {
-        setLoading(false)//because once the data is fetched and there is an error loading stops
-        setError(error.message)
-      }
+      (error) => {setLoading(false)//because once the data is fetched and there is an error loading stops
+        setError(error.message)}
     )
   },[])
 
-  function handleCreate(){
+  function handleCreate(formData){
     fetch("http://localhost:3000/products",{
       method:"POST",
       headers:{"content-type":"Application/json"},
-      body: JSON.stringify(productData)
+      body: JSON.stringify(formData)
     }).then((res) => {
       if(!res.ok){
         throw new Error("failed to send data")
@@ -45,10 +45,11 @@ function App() {
   }
   return (
     <div>
-      {loading && <p>loading...</p>}
-      {error && <p>{error}</p>}
       <ProductContext value={{data,setData,handleCreate}}>
-        {Children}
+        {loading && <p>loading...</p>}
+        {error && <p>{error}</p>}
+        <ProductList />
+        <NewProductForm />
       </ProductContext>
     </div>
     

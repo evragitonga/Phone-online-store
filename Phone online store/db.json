@@ -1,7 +1,7 @@
 {
   "products": [
     {
-      "id": 1,
+      "id": "1",
       "name": "iPhone 15",
       "category": "Smartphones",
       "price": 999,
@@ -9,7 +9,7 @@
       "brand": "Apple"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "iPhone 15 Pro",
       "category": "Smartphones",
       "price": 1199,
@@ -17,7 +17,7 @@
       "brand": "Apple"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "iPhone 15 Pro Max",
       "category": "Smartphones",
       "price": 1299,
@@ -25,7 +25,7 @@
       "brand": "Apple"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "iPhone 14",
       "category": "Smartphones",
       "price": 799,
@@ -33,7 +33,7 @@
       "brand": "Apple"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "iPhone 13",
       "category": "Smartphones",
       "price": 699,
@@ -41,7 +41,7 @@
       "brand": "Apple"
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Samsung Galaxy S24",
       "category": "Smartphones",
       "price": 899,
@@ -49,7 +49,7 @@
       "brand": "Samsung"
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Samsung Galaxy S24 Ultra",
       "category": "Smartphones",
       "price": 1299,
@@ -57,7 +57,7 @@
       "brand": "Samsung"
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Samsung Galaxy S23",
       "category": "Smartphones",
       "price": 799,
@@ -65,7 +65,7 @@
       "brand": "Samsung"
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "Samsung Galaxy A55",
       "category": "Smartphones",
       "price": 449,
@@ -73,7 +73,7 @@
       "brand": "Samsung"
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "Samsung Galaxy A35",
       "category": "Smartphones",
       "price": 349,
@@ -81,7 +81,7 @@
       "brand": "Samsung"
     },
     {
-      "id": 11,
+      "id": "11",
       "name": "Google Pixel 8",
       "category": "Smartphones",
       "price": 699,
@@ -89,7 +89,7 @@
       "brand": "Google"
     },
     {
-      "id": 12,
+      "id": "12",
       "name": "Google Pixel 8 Pro",
       "category": "Smartphones",
       "price": 999,
@@ -97,7 +97,7 @@
       "brand": "Google"
     },
     {
-      "id": 13,
+      "id": "13",
       "name": "Google Pixel 7",
       "category": "Smartphones",
       "price": 599,
@@ -105,7 +105,7 @@
       "brand": "Google"
     },
     {
-      "id": 14,
+      "id": "14",
       "name": "OnePlus 12",
       "category": "Smartphones",
       "price": 799,
@@ -113,7 +113,7 @@
       "brand": "OnePlus"
     },
     {
-      "id": 15,
+      "id": "15",
       "name": "OnePlus 12R",
       "category": "Smartphones",
       "price": 599,
@@ -121,7 +121,7 @@
       "brand": "OnePlus"
     },
     {
-      "id": 16,
+      "id": "16",
       "name": "OnePlus Nord 3",
       "category": "Smartphones",
       "price": 399,
@@ -129,7 +129,7 @@
       "brand": "OnePlus"
     },
     {
-      "id": 17,
+      "id": "17",
       "name": "Xiaomi 14",
       "category": "Smartphones",
       "price": 749,
@@ -137,7 +137,7 @@
       "brand": "Xiaomi"
     },
     {
-      "id": 18,
+      "id": "18",
       "name": "Xiaomi Redmi Note 13",
       "category": "Smartphones",
       "price": 299,
@@ -145,7 +145,7 @@
       "brand": "Xiaomi"
     },
     {
-      "id": 19,
+      "id": "19",
       "name": "Xiaomi Redmi Note 13 Pro",
       "category": "Smartphones",
       "price": 399,
@@ -153,7 +153,7 @@
       "brand": "Xiaomi"
     },
     {
-      "id": 20,
+      "id": "20",
       "name": "Xiaomi Poco X6",
       "category": "Smartphones",
       "price": 349,
@@ -161,7 +161,7 @@
       "brand": "Xiaomi"
     },
     {
-      "id": 21,
+      "id": "21",
       "name": "Oppo Reno 11",
       "category": "Smartphones",
       "price": 449,
@@ -169,7 +169,7 @@
       "brand": "Oppo"
     },
     {
-      "id": 22,
+      "id": "22",
       "name": "Oppo Find X7",
       "category": "Smartphones",
       "price": 799,
@@ -177,7 +177,7 @@
       "brand": "Oppo"
     },
     {
-      "id": 23,
+      "id": "23",
       "name": "Vivo V30",
       "category": "Smartphones",
       "price": 399,
@@ -185,7 +185,7 @@
       "brand": "Vivo"
     },
     {
-      "id": 24,
+      "id": "24",
       "name": "Vivo X100",
       "category": "Smartphones",
       "price": 699,
@@ -193,7 +193,7 @@
       "brand": "Vivo"
     },
     {
-      "id": 25,
+      "id": "25",
       "name": "Huawei P60 Pro",
       "category": "Smartphones",
       "price": 899,
@@ -201,7 +201,7 @@
       "brand": "Huawei"
     },
     {
-      "id": 26,
+      "id": "26",
       "name": "Huawei Nova 12",
       "category": "Smartphones",
       "price": 499,
@@ -209,7 +209,7 @@
       "brand": "Huawei"
     },
     {
-      "id": 27,
+      "id": "27",
       "name": "Nothing Phone 2",
       "category": "Smartphones",
       "price": 599,
@@ -217,7 +217,7 @@
       "brand": "Nothing"
     },
     {
-      "id": 28,
+      "id": "28",
       "name": "Motorola Edge 40",
       "category": "Smartphones",
       "price": 499,
@@ -225,7 +225,7 @@
       "brand": "Motorola"
     },
     {
-      "id": 29,
+      "id": "29",
       "name": "Nokia G60",
       "category": "Smartphones",
       "price": 299,
@@ -233,12 +233,29 @@
       "brand": "Nokia"
     },
     {
-      "id": 30,
+      "id": "30",
       "name": "Tecno Camon 20",
       "category": "Smartphones",
       "price": 249,
       "stock": 35,
       "brand": "Tecno"
+    },
+    {
+      "name": "Sumsung",
+      "category": "Electronics",
+      "price": "1000",
+      "stock": "100",
+      "brand": "sumsung",
+      "id": "qCPzunxmUkM"
+    },
+    {
+      "name": "strangerthings",
+      "category": "Electroni",
+      "price": "10010",
+      "stock": "1101",
+      "brand": "sumsung",
+      "id": "L6lJZxSmKxM"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
