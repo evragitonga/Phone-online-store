@@ -5,13 +5,6 @@ function App() {
   const [Data,setData] = useState([])
   const [loading,setLoading] = useState(true)
   const [error,setError] = useState("")
-  const [productData,setProductData] = useState({
-    name:"",
-    category:"",
-    price:0,
-    stock:0,
-    brand:""
-  })
 
 
   useEffect(() => {
@@ -45,13 +38,6 @@ function App() {
       setData(prevData => 
         [...prevData,newProduct]
       )
-      setProductData({
-        name:"",
-        category:"",
-        price:0,
-        stock:0,
-        brand:""
-      })
     }
   ).catch((error) => {
       setError(error.message)
@@ -61,7 +47,7 @@ function App() {
     <div>
       {loading && <p>loading...</p>}
       {error && <p>{error}</p>}
-      <ProductContext value={{productData,setProductData,handleCreate}}>
+      <ProductContext value={{data,setData,handleCreate}}>
         {Children}
       </ProductContext>
     </div>
