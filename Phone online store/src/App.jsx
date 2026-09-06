@@ -3,6 +3,9 @@ import './App.css'
 import { ProductContext } from './context/ProductContext'
 import ProductList from './components/ProductList'
 import NewProductForm from './components/NewProductForm'
+import { Routes,Route } from 'react-router'
+import NavBar from './components/common/NavBar'
+import Home from './components/Home'
 function App() {
   const [data,setData] = useState([])
   const [loading,setLoading] = useState(true)
@@ -62,10 +65,18 @@ function App() {
   return (
     <div>
       <ProductContext value={{data,setData,handleCreate,handleDelete}}>
+        <NavBar />
         {loading && <p>loading...</p>}
         {error && <p>{error}</p>}
-        <ProductList />
-        <NewProductForm />
+        <Routes>
+          <Route path='/'element={<Home/>}/>
+          <Route path='/shop' element={<ProductList />}/>
+
+          <Route path='/admin/portal' element={<NewProductForm />}/>
+        </Routes>
+        
+        
+        
       </ProductContext>
     </div>
     
