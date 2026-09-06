@@ -1,0 +1,42 @@
+.homePage{
+  display: flex;
+  justify-content: center;
+}
+.link{
+  font-size: large;
+  color: black;
+  background-color: antiquewhite;
+  box-shadow: 0px 0px 5px gray;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 20px;
+  text-decoration: none;
+}
+.link:hover{
+  opacity: 0.7;
+}
+.link:focus{
+  opacity: 0.4;
+}
+.navBar{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 3px 5px gray;
+  margin-bottom: 50px;
+}
+.navLink{
+  font-size: large;
+  color: black;
+  background-color: antiquewhite;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 20px;
+  text-decoration: none;
+}
+.navLink:hover{
+  opacity: 0.7;
+}
+.navLink:focus{
+  opacity: 0.4;
+}
