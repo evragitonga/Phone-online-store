@@ -1,14 +1,14 @@
 import { Link } from "react-router"
 function NavBar(){
   return (
-    <nav>
-      <Link to="/">
+    <nav className="navBar">
+      <Link className="navLink" to="/">
         Home
       </Link>
-      <Link to="/shop">
+      <Link className="navLink" to="/shop">
                 Shop
       </Link>
-      <Link to="/admin/portal">
+      <Link className="navLink" to="/admin/portal">
         Admin portal
       </Link>
 
