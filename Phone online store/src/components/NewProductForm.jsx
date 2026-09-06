@@ -39,7 +39,7 @@ function NewProductForm () {
         <label htmlFor="brand">Brand</label>
         <input type="text" id="brand" onChange={handleChange} value={formData.brand} name="brand" placeholder="eg. Samsung"/>
 
-        <button type="submit">Add Product</button>
+        <button type="submit"> Add Product</button>
       </form>
     </div>  
   </div>
