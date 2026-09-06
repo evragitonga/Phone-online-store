@@ -4,11 +4,20 @@ import { ProductContext } from "../context/ProductContext"
 import "../index.css"
 
 function NewProductForm () {
-  const {formData,handleChange} = useForm()
+  const {formData,handleChange,setFormData} = useForm()
   const {handleCreate} = useContext(ProductContext)
   function handleSubmit(e){
     e.preventDefault()
     handleCreate(formData)
+    
+    setFormData({
+      name:"",
+      category:"",
+      price:0,
+      stock:0,
+      brand:""
+    })
+    
   }
  return (
   <div className="formPage">

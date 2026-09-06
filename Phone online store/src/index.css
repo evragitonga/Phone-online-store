@@ -20,6 +20,7 @@
   opacity: 0.4;
 }
 .navBar{
+  padding: 5px;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -85,3 +86,60 @@
 .formContainer button:focus{
   opacity: 0.4;
 }
+.productCard{
+  min-width: 150px;
+  max-width: 200px;
+  color: black;
+  background-color: antiquewhite;
+  box-shadow: 0px 0px 5px gray;
+  border: none;
+  border-radius: 10px;
+  padding: 20px 
+}
+.productCard button{
+  font-size: medium;
+  color: black;
+  background-color: rgb(255, 255, 255);
+  border: solid 1px black;
+  border-radius: 10px;
+  padding: 5px 10px; 
+}
+.productCard button:hover{
+  opacity: 0.7;
+}
+.productCard button:focus{
+  opacity: 0.4;
+}
+.productsContainer{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-left: 70px;
+  padding-top: 60px;
+  border-top: solid 2px black;
+}
+
+.searchInput{
+  min-width: 150px;
+  max-width: 300px;
+  margin-bottom: 50px;
+  border: none;
+  outline: none;
+  background-color: antiquewhite;
+  box-shadow: 0px 0px 5px gray;
+  border-radius: 10px;
+  padding: 5px;
+}
+.searchInput:hover{
+  opacity: 0.7;
+}
+.searchInput:focus{
+  opacity: 0.4;
+}
+.seachContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+

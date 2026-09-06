@@ -1,10 +1,11 @@
 import { useContext } from "react"
 import { ProductContext } from "../context/ProductContext"
+import "../index.css"
 
 function ProductCard({product}){
   const {handleDelete} = useContext(ProductContext)
   return (
-    <div>
+    <div className="productCard">
         <h1>{product.name}</h1>
         <p>{product.category}</p>
         <p>{product.price} $</p>

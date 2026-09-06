@@ -1,6 +1,7 @@
 import { useContext, useState } from "react"
 import { ProductContext } from "../context/ProductContext"
 import ProductCard from "./ProductCard"
+import "../index.css"
 
 function ProductList(){
  const [search, setSearch] = useState("")
@@ -11,10 +12,14 @@ function ProductList(){
  })
  return (
   <div>
-    <input type="text" placeholder="Search Product" onChange={(e) => setSearch(e.target.value)} value={search}/>
-    {filteredProducts.map((product) => (
-      <ProductCard key={product.id} product={product}/>
-    ))}
+    <div className="seachContainer">   
+        <input type="text" placeholder="Search Product" onChange={(e) => setSearch(e.target.value)} value={search} className="searchInput"/>
+    </div>
+    <div className="productsContainer">
+      {filteredProducts.map((product) => (
+        <ProductCard key={product.id} product={product}/>
+      ))}
+    </div>
   </div>
  )
 }
