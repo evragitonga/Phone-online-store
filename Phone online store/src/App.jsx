@@ -74,9 +74,6 @@ function App() {
 
           <Route path='/admin/portal' element={<NewProductForm />}/>
         </Routes>
-        
-        
-        
       </ProductContext>
     </div>
     
