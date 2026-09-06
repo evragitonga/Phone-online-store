@@ -1,6 +1,7 @@
 .homePage{
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .link{
   font-size: large;
@@ -26,17 +27,61 @@
   margin-bottom: 50px;
 }
 .navLink{
-  font-size: large;
+  font-size: medium;
   color: black;
   background-color: antiquewhite;
   border: none;
   border-radius: 10px;
-  padding: 5px 20px;
+  padding: 5px;
+
+
   text-decoration: none;
 }
 .navLink:hover{
   opacity: 0.7;
 }
 .navLink:focus{
+  opacity: 0.4;
+}
+.formPage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.formContainer{
+  min-width: 150px;
+  max-width: 300px;
+  box-shadow: 0px 0px 5px gray;
+  padding: 100px;
+}
+.formContainer input{
+  width: 100%;
+  margin-bottom: 15px;
+  border: none;
+  outline: none;
+  background-color: antiquewhite;
+  box-shadow: 0px 0px 5px gray;
+  border-radius: 10px;
+}
+.formContainer input:hover{
+  opacity: 0.7;
+}
+.formContainer input:focus{
+  opacity: 0.4;
+}
+.formContainer button{
+  font-size: large;
+  color: black;
+  background-color: antiquewhite;
+  box-shadow: 0px 0px 5px gray;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  text-decoration: none; 
+}
+.formContainer button:hover{
+  opacity: 0.7;
+}
+.formContainer button:focus{
   opacity: 0.4;
 }
