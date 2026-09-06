@@ -57,14 +57,6 @@
       "brand": "Samsung"
     },
     {
-      "id": "8",
-      "name": "Samsung Galaxy S23",
-      "category": "Smartphones",
-      "price": 799,
-      "stock": 16,
-      "brand": "Samsung"
-    },
-    {
       "id": "9",
       "name": "Samsung Galaxy A55",
       "category": "Smartphones",

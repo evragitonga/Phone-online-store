@@ -12,7 +12,7 @@ function useForm () {
     const {name,value} = e.target
     setFormData(prevFormData => ({...prevFormData,[name]:value}))
   }
-  return {formData,handleChange}
+  return {formData,handleChange,setFormData}
 }
 
 export default useForm
