@@ -22,7 +22,6 @@ function NewProductForm () {
  return (
   <div className="formPage">
     <div className="formContainer">    
-      <h1>Add phone details below.</h1>
       <form onSubmit={handleSubmit}>
         <label htmlFor="name">Name</label>
         <input type="text" id="name" onChange={handleChange} value={formData.name} name="name" placeholder="eg. Samsung Galaxy S24"/>
@@ -39,7 +38,7 @@ function NewProductForm () {
         <label htmlFor="brand">Brand</label>
         <input type="text" id="brand" onChange={handleChange} value={formData.brand} name="brand" placeholder="eg. Samsung"/>
 
-        <button type="submit"> Add Product</button>
+        <button type="submit">Submit</button>
       </form>
     </div>  
   </div>
