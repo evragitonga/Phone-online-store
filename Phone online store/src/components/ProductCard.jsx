@@ -8,7 +8,7 @@ function ProductCard({product}){
     <div className="productCard">
         <h1>{product.name}</h1>
         <p>{product.category}</p>
-        <p>{product.price} $</p>
+        <p>{product.price}</p>
         <p>{product.stock}</p>
         <p>{product.brand}</p>
         <button onClick={() => {handleDelete(product.id)}}>DELETE</button>
